@@ -52,6 +52,6 @@ RSpec.describe 'the dish show page' do
     end
 
     expect(page).to have_content('Chef: Johnny Iuzzini')
-    expect(page).to have_content('Calories: 65')
+    expect(page).to have_content('Total Calories: 65')
   end
 end
